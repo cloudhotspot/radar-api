@@ -5,8 +5,7 @@ var chai = require('chai');
 var expect = chai.expect;
 var should = require('should');
 var token = process.env.TOKEN;
-var apiURL = 'http://localhost:'+ process.env.API_PORT + '/' ||
-  'http://localhost:3001';
+var apiURL = 'http://localhost:'+ process.env.API_PORT || 'http://localhost:3001' + '/';
 
 describe('Index', function() {
   it('renders something', function(done) {
