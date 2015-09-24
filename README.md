@@ -1,4 +1,4 @@
-# radar-api (back-end)
+# radar-api (back-end - new awesome feature build)
 
 API for simple node application to view issues on github. Communicates with github API. By default, runs on port 3001.
 
